@@ -26,6 +26,7 @@ const AllProducts = () => {
             {filteredProducts.filter((product) => product.inStock).map((product, index) => (
                 <ProductCard key={index} product={product} />
             ))}
+            
         </div>
     </div>
   )
